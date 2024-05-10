@@ -218,3 +218,13 @@ section {
     color: #FFF;
     
 }
+
+@media screen and (max-with: 767px);{
+
+section{
+    padding 60px 20px;
+}
+
+card{
+    margin bottom:20px;
+}
