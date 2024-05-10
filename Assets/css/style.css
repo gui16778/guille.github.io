@@ -1,0 +1,220 @@
+:root{
+
+    --bg1: #d633846b;
+    --bg2: rgb(44, 42, 42);
+    --body: rgb(95, 86, 86);
+    --brand: #08848d;
+    --white: rgb(243, 239, 239);
+    --p: rgb(240, 247, 246); 
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: #212529;
+    line-height: 1.8;
+    background-color: #212529;
+}
+a{
+    text-decoration: none;
+}
+
+#banner {
+    min-height: 120vh;
+    background: linear-gradient(to right, rgba(36, 34, 35, 0.171), rgba(84, 86, 89, 0)),  
+    url(https://wallpaperset.com/w/full/9/6/1/543446.jpg);
+    background-size: cover; /* Cover ensures that the background image covers the entire container */
+    background-position: center; /* Center the background image */
+}
+
+
+
+    
+  
+ 
+.navbar{
+     background:linear-gradient(to bottom, hsla(0,2%,17%,0.829), rgba(44,42, 42, 0.884));
+}
+.navbar .nav-link {
+    color: #ffffff;
+}
+.navbar #navbarNav .nav-link.active {
+    color: var(--brand) !important;
+}
+.navbar .nav-link:hover{
+    color:var(--brand) !important;
+}
+.navbar-brand img{
+    width: 50%;
+}
+
+.btn{
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+.btn-brand {
+    background-color:var(--bs-purple);
+    color: #030303;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+    .btn-outline-brand{
+        background-color: transparent;
+        color: var(--bg2);
+        border-color: var(--bs-gray-dark);
+    }
+.btn-outline-brand:hover{
+    background-color: var(--brand);
+    color: var(--bg1);
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about {
+    background-color: #d633846b;
+    
+}
+#Services{
+    background-color: #212529;   
+}
+.icon-box-img{
+    width: 40%;
+}
+.card{
+    transition: background-color 0.3s,color 0.3s;
+}
+.card:hover{
+    background-color: var(--bg1);
+}
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn{
+    color: #ffffff;
+}
+#cta{
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.507)), 
+    url(https://wallpapercave.com/wp/uilE6Cv.jpg);
+    min-height: 100vh;
+}
+
+#reviews {
+    background-color: #ffffff;
+}
+
+.testimonials {
+    padding: 30px;
+    background-color: var(--bg2);
+    border-radius: 1px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 1px;
+    height: 65px;
+}
+
+#reviews a {
+    text-decoration: none;
+    color: var(--brand);
+
+
+}
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+    border-radius: 0 !important;
+}
+
+.accordion-button {
+    background-color: #6c757d;
+    border: none;
+    border-bottom: 1px solid rgba(0, 136, 136, 0.384);
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;  
+}
+
+.accordion-body {
+    border-left: 3px solid var(--black);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #fafafa;
+}
+
+.faq-answer p {
+    margin-bottom: 0;
+}
+ 
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--brand);
+}
+
+/* Hover effect for FAQ questions */
+.accordion-button:hover {
+    background-color: var(--white); /* Change background color on hover */
+    color: var(--bg2); /* Change text color on hover */
+}
+
+/* Adjust accordion icon */
+.accordion-button::after {
+    font-family: "Font Awesome 5 Free";
+    content: ""; /* Plus icon */
+    float: right;
+    font-weight: 900;
+    margin-left: auto;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    content: ""; /* Minus icon */
+}
+
+
+
+
+/*Footer*/
+#footer{
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color:#011418;
+}
+#footer ul.list-unstyled li:hover a{
+    color: var(--bg1);
+}
+#reviews h2,#services  h2{
+    color:#000;
+}
+.btn-outline-light{
+    border-color: #ffffff !important;
+    color:#d6932c;
+}
+
+#footer a {
+    color: #FFF;
+    
+}
